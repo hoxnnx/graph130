@@ -1,0 +1,23 @@
+body {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #5c412d;
+}
+
+a {
+    color: white;
+}
+
+header, main, aside, footer {
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+
+section {
+    box-sizing: border-box;
+    border: white 2px solid;
+    padding: 5px;
+}
