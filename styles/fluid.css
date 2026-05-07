@@ -1,0 +1,68 @@
+body {
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+
+nav a {
+    flex-grow: 1;
+    color: white;
+    text-decoration: none;
+    border: solid white 1px;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+section a {
+    color: white;
+}
+
+.kaos section {
+    padding: 5px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.em {
+    background-image: url(../images/fluid01.jpg);
+    font-size: 1em;
+    line-height: 2em;
+    border: solid white .3em;
+}
+
+.rem {
+    background-image: url(../images/fluid02.jpg);
+    font-size: 1em;
+    line-height: 2em;
+    border: dotted palevioletred .4em;
+}
+
+.percent {
+    background-image: url(../images/fluid03.jpg);
+}
+
+.percent p {
+    width: 75%;
+}
+
+.box {
+    background-image: url(../images/fluid04.jpg);
+}
+
+.VW {
+    background-image: url(../images/fluid05.jpg);
+    border: dashed slategray .3em;
+}
+
+.hero img{
+    width: 100%;
+    height: auto;
+}
