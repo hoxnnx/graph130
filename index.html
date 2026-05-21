@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anna's Website</title>
+    <link rel="stylesheet" href="styles/homepage.css" type="">
     <style>
+        h1 {
+            color: #D995B8;
+        }
         h3 {
             font-size: 30px;
             color: #D995B8;
@@ -16,18 +20,62 @@
     </style>
 </head>
 <body>
-    <h1>Anna Hoang - Welcome to my first webpage.</h1>
-    <h2>School & Course</h2>
-    <p>Everett Community College - graph130</p>
-    <h3>How many quarters have you attended EvCC?</h3>
-    <p>I have attended 3 quarters at Everett Community College. This will be my 4th quarter.</p>
-    <h3>What degree/certificate program are you pursuing?</h3>
-    <p>I am pursuing an associates degree in graphic design.</p>
-    <h3>Why did you choose this degree/certificate?</h3>
-    <p>I chose this degree because I have always been interested in art and designing, specifically in character design for games. I plan on to graduate with an associates in hopes of working for a game company.
-    <h3>What artist/designer inspires you? Why?</h3>    
-    <p>An artist that inpires me is Kazuma Koda, a japanese concept artist for game series called "NieR".</p>
-    <h3>What is your favorite color?</h3>
-    <p> My favorite color is <span style="color: #FADBE5;">#FADBE5</span>. I like this color due to how clean and simple it is.</p>
+    <header>
+        <h1>Anna Hoang</h1>
+        <nav>
+            <a href="#work"><p>work</p></a>
+            <a href="#cv"><p>cv</p></a>
+            <a href="#contact"><p>contact</p></a>
+        </nav>
+    </header>
+    <main>
+        <aside>
+            <img class="faze" src="images/_.jpeg" alt="profile images">
+            <h3>School & Course</h3>
+            <p>Everett Community College - graph130</p>
+            <h3>How many quarters have you attended EvCC?</h3>
+            <p>I have attended 3 quarters at Everett Community College. This will be my 4th quarter.</p>
+            <h3>What degree/certificate program are you pursuing?</h3>
+            <p>I am pursuing an associates degree in graphic design.</p>
+            <h3>Why did you choose this degree/certificate?</h3>
+            <p>I chose this degree because I have always been interested in art and designing, specifically in character design for games. I plan on to graduate with an associates in hopes of working for a game company.
+            <h3>What artist/designer inspires you? Why?</h3>    
+            <p>An artist that inpires me is Kazuma Koda, a japanese concept artist for game series called "NieR".</p>
+            <h3>What is your favorite color?</h3>
+            <p> My favorite color is <span style="color: #FADBE5;">#FADBE5</span>. I like this color due to how clean and simple it is.</p>
+        </aside>
+        <article id="work">
+            <section class="project" id="history">
+                <a href="pages/history-refactor.html"><p> history project</p></a>
+            </section>
+            <section class="project" id="theater">
+                <a href="pages/theater.html"><p> theater project</p></a>
+            </section>
+            <section class="project" id="stew">
+                <a href="pages/stew.html"><p> stew project</p></a>
+            </section>
+            <section class="project" id="cascade">
+                <a href="pages/cascademountains.html"><p> cascade project</p></a>
+            </section>
+            <section class="project" id="images">
+                <a href="pages/opt-images.html"><p> images project</p></a>
+            </section>
+            <section class="project" id="fluid">
+                <a href="pages/fluid.html"><p> fluid dimensions project</p></a>
+            </section>
+            <section class="project" id="media queries">
+                <a href="pages/media-queries.html"><p> media queries project</p></a>
+            </section>
+            <section class="project" id="orcas">
+                <a href="pages/orcas.html"><p> orcas project</p></a>
+            </section>
+            <section class="project" id="lopez">
+                <a href="pages/lopez.html"><p> lopez project</p></a>
+            </section>
+            <section class="mobile cascade" id="mobile cascade">
+                <a href="pages/mobile-cascade.html"><p> mobile cascade project</p></a>
+            </section>
+        </article>
+    </main>
 </body>
 </html>
