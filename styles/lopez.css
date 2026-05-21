@@ -43,6 +43,7 @@ main {
 }
 .item5 {
     grid-area: last;
+    background-image: url(../images/sj-images/sj-026.jpg);
 }
 .item6 {
     grid-area: bottom1;
