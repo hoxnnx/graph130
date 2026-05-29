@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* css document */
+
+body {
+    background-image: url(../images/cascade_mountains-bg.jpg);
+}
+
+.container {
+    width: 60em;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.image-left {
+    float: left;;
+}
