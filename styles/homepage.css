@@ -56,7 +56,7 @@ article {
     flex-wrap:wrap;
 }
 .project {
-    filer: grayscale(100%);
+    filter: grayscale(100%);
     background-size: cover;
     min-width:300px;
     min-height: 300px;
