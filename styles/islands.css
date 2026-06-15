@@ -35,13 +35,13 @@ main section {
     height: 200px;
 }
 .pic2 {
-    background-image: url(../images/sj-031.jpg);
+    background-image: url(../images/sj-images/sj-031.jpg);
 }
 .pic4 {
-    background-image: url(../images/sj-039.jpg);
+    background-image: url(../images/sj-images/sj-039.jpg);
 }
 .pic6 {
-    background-image: url(../images/sj-011.jpg);
+    background-image: url(../images/sj-images/sj-011.jpg);
 }
 .item7 {
     grid-column-start: 2;
@@ -65,7 +65,7 @@ header a, header p, nav a, label {
     text-decoration: none;
 }
 .hero-orcas, main section {
-    background-image: url(../images/sj-034.jpg);
+    background-image: url(../images/sj-images/sj-034.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,7 +101,7 @@ main section {
 }
 
 .item1 {
-    background-image: url(../images/sj-015.jpg);
+    background-image: url(../images/sj-images/sj-015.jpg);
 }
 .item3 {
     background-image: url(../images/sj-images/sj-025.jpg);
