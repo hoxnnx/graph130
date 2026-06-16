@@ -6,40 +6,19 @@
     <title>Fluid Dimensions</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/fluid.css">
+    <link rel="stylesheet" href="../styles/nav.css" type="text/css">
     <link rel="stylesheet" href="../styles/mobile.css" type="text/css">
-    <link href="../styles/nav.css" rel="stylesheet" type="text/css">
+    
 </head>
 <body>
     <div id="nav-placeholder"></div>
     <script>
-
-fetch('nav.html')
-
- .then(response => response.text())
-
- .then(data => {
-
-document.getElementById('nav-placeholder').innerHTML = data;
-
-// Wait until nav.html is loaded, THEN attach toggle behavior
-
-const toggleButton = document.getElementsByClassName('toggle-button')[0];
-
-const navbarLinks = document.getElementsByClassName('kiwi')[0];
-
-if (toggleButton && navbarLinks) {
-
-toggleButton.addEventListener('click', () => {
-
-navbarLinks.classList.toggle('active');
-
- });
-
- }
-
- });
-
-</script>
+        fetch('nav.html')
+        .then(response => response.text())
+        .then(data => {
+        document.getElementById('nav-placeholder').innerHTML = data;
+        });
+    </script>
     <header>
         <nav class="pure-g">
             <a class="pure-u-1-7" href="../index.html">Home</a>

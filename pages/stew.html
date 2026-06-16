@@ -2,7 +2,8 @@
 <html>
 <head>
 	<link href="../styles/stewcss.css" rel="stylesheet" type="text/css">
-	<link href="../styles/theater-mobile.css" rel="stylesheet" type="text/css">
+	<link href="../styles/nav.css" rel="stylesheet" type="text/css">
+	<link href="../styles/mobile.css" rel="stylesheet" type="text/css">
 	<title>Stew Recipe</title>
 	<style> 
 		i {
@@ -18,33 +19,12 @@
 <body>
 	<div id="nav-placeholder"></div>
     <script>
-
-fetch('nav.html')
-
- .then(response => response.text())
-
- .then(data => {
-
-document.getElementById('nav-placeholder').innerHTML = data;
-
-// Wait until nav.html is loaded, THEN attach toggle behavior
-
-const toggleButton = document.getElementsByClassName('toggle-button')[0];
-
-const navbarLinks = document.getElementsByClassName('kiwi')[0];
-
-if (toggleButton && navbarLinks) {
-
-toggleButton.addEventListener('click', () => {
-
-navbarLinks.classList.toggle('active');
-
- });
-
- }
-
- });
-
+        fetch('nav.html')
+        .then(response => response.text())
+        .then(data => {
+        document.getElementById('nav-placeholder').innerHTML = data;
+        });
+    </script>
 </script>
 	<div class="stew-content">
 	<h1 style="color:#772f1a;font-size:26px;">How To Make the Best Beef Stew from Scratch</h1>
